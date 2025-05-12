@@ -123,9 +123,9 @@ A GitHub Actions workflow (`.github/workflows/terraform-docs.yaml`) is configure
 
 ---
 
-## 🧾 License
+## 🧾 Terraform Documentation sample
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+You can check the documentation of this project using `terraform-docs` here: [`terraform-docs`](TF-docs.md).
 
 ---
 
