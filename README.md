@@ -37,7 +37,7 @@ This Terraform module provisions a fully managed [Google Cloud Workstations](htt
 
 ```hcl
 module "cloud_workstation" {
-  source  = "github.com/akhileshmishrabiz/terraform-google-workstation"
+  source  = "github.com/khoubate/TF-gcp-workstation"
   
   project_id       = "your-gcp-project-id"
   region           = "us-central1"
