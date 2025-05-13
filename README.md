@@ -40,14 +40,14 @@ module "cloud_workstation" {
   source  = "github.com/khoubate/TF-gcp-workstation"
   
   project_id       = "your-gcp-project-id"
-  region           = "us-central1"
+  region           = "us-east1"
   network_name     = "your-vpc-network"
   subnet_name      = "your-subnet"
   workstation_name = "dev-workstation"
   
   # Optional configurations
   custom_image     = "gcr.io/your-project/custom-image:tag"
-  startup_script   = file("workstation-custom-setup.sh")
+  startup_script   = file("workstation-setup.sh")
 }
 ```
 
